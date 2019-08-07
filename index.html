@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>pascal struck</title>
+	<!-----------------style-------------------->
+	<link rel="stylesheet" href="css/jquery.fullpage.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-----------------/style------------------->
+	<!-----------------font--------------------->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<!-----------------/font-------------------->
+</head>
+<body>
+	<!-----------------nav---------------------->
+	<div>
+			<nav id="nav">
+				<div class="logo">
+					<a class="" href="#main"><img width="40" alt="Logo" src="img/logome.svg"></a>
+				</div>
+				<ul>
+					<!--li><a href="#main">main</a></li-->
+					<li><a href="#work" class="navlink">work</a></li>
+					<li><a href="#about" class="navlink">about</a></li>
+					<li><a href="#contact" class="navlink">contact</a></li>
+				</ul>
+			</nav>
+	</div>
+	<!-----------------/nav--------------------->
+
+	<!-----------------content------------------>
+	<div id="fullpage">
+		<div class="section" data-anchor="main">
+			<div class="center">
+				<h1 class="head">Hey, I'm Pascal!</h1>
+				<h2><p class="subhead">I'm an <span>UI/UX Designer</span> based in Berlin</p>
+					<p class="subhead">I hope you like my <a href="#work" class="navlink">work</a>.</p></h2>
+			</div>
+				<h2 class="email">struck_pascal@web.de</h2>
+		</div>
+		<div class="section" data-anchor="work">
+			<!--<h3>prjct</h3>-->
+				<div class="prjctpos">
+					<h1 class="head">01_Tracking</h1>
+					<p class="">Projects revolving around Colortracking and
+					Facetracking using only the Webcam of your 
+					Computer/ Laptop. Created with Processing
+					and OpenCV. <a href="" class="">read more…</a></p>
+				</div>
+
+				<video class="video" src="video.mov" controls>
+  					Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+  					Dieser Film zeigt eine Demonstration des video-Elements. 
+  					Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
+				</video>
+		</div>
+
+		<div class="section" data-anchor="project2">
+			<!--<h3>prjct</h3>-->
+				<div class="prjctpos">
+					<h1 class="head">02_Twitter Insight</h1>
+					<p class="">Twitter Insight is an interactive web app which utilizes the Twitter API to visualize and compare user data. Designed by Max Herrmann and Pascal Struck. <a href="" class="">read more…</a></p>
+				</div>
+
+		</div>
+		<div class="section" data-anchor="project3">
+			<!--<h3>prjct</h3>-->
+				<div id="black" class="prjctpos">
+					<h1 class="head">03_Circle Font</h1>
+					<p class="">A pretty round font and that’s why it’s called cirlce font. <a href="" id="black" class="">read more…</a></p>
+				</div>
+
+				<div id="03bg"></div>
+
+		</div>
+		<div class="section" data-anchor="about">
+			<!--<h3>about</h3>-->
+				<div class="foto">
+				</div>
+				<div class="about">
+					<p>My name is Pascal Struck.<br>
+					I am a UI Designer from Berlin with a passion for coding. I’m studying Communication Design in Potsdam.</p>
+					<p>I’m working struc[k]tured, always with a plan and try to utilize guidelines as much as possible. But without trying to lose the connection to creativity and freedom in design.</p>
+					<p>I’m currently looking for work alongside my studies.
+					If you are interested I would love to <a href="#contact" id="black" class="navlink">hear from you.</a></p>
+				</div>
+		</div>
+
+		<div class="section" data-anchor="contact">
+			<!--<h3>contact</h3>-->
+				<div id="black" class="prjctpos">
+					<h1 class="head">Contact!</h1>
+					<p class="">Let’s get to the drawing board and figure something out!
+					I left some room for you to sketch some ideas.</p> 
+					<p>So if you are interested in working together or want to show me your idea you can<br><a href="mailto:struck_pascal@web.de" id="black" class="">drop me a message</a>.</p>
+				</div>
+
+				<div id="conbg">
+				</div>
+
+				<div>
+					<canvas id="paint"></canvas>
+				</div>
+
+				<footer>
+					<div>
+						<p class="left"><a href="">Impressum</a></p>
+						<p class="right">© 2019 all rights reserved. Designed by Pascal Struck. Developed By Pascal Struck.</p>
+					</div>
+				</footer>
+		</div>
+	</div>
+	<!-----------------/content----------------->
+
+	<!-----------------script.js---------------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="js/fullpage.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/link.js"></script>
+	<!------------------------------------------>
+	<script src="js/p5.min.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/p5.sound.min.js"></script>
+
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script src="js/sketch.js"></script>
+	<!-----------------/script.js--------------->
+</body>
+</html>
