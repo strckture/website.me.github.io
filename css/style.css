@@ -97,7 +97,8 @@ a {
 }
 
 .section:nth-child(6){
-	background-image: url("../img/contactbgl.svg");
+	background-image: url("../img/contactbg2.svg");
+	background-size: cover;
 	background-color: #FFFFFF;
 	z-index: 1;
 	/*cursor: */
@@ -162,8 +163,7 @@ a {
 
 
 #paint{
-	position: absolute;
-	z-index: 50;
+	cursor: crosshair;
 }
 /*----------------------------------------*/
 /*--------------navbar--------------------*/
