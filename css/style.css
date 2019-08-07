@@ -97,8 +97,9 @@ a {
 }
 
 .section:nth-child(6){
-	background: #FFFFFF;
-	z-index: -1;
+	background-image: url("../img/contactbgl.svg");
+	background-color: #FFFFFF;
+	z-index: 1;
 	/*cursor: */
 }
 
@@ -159,13 +160,10 @@ a {
 	margin-right: 70vw;
 }
 
-#conbg{
-	background-image: url(../img/contactbg2.svg);
-	background-size: cover;
-	/*z-index: -1;*/
-}
 
-#canvas{
+#paint{
+	position: absolute;
+	z-index: 50;
 }
 /*----------------------------------------*/
 /*--------------navbar--------------------*/
