@@ -162,7 +162,7 @@ a {
 
 
 #paint{
-	cursor: crosshair;
+	cursor: url("../img/cursor.svg") 0 15, auto;
 	position: absolute;
 }
 /*----------------------------------------*/
