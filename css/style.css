@@ -92,14 +92,14 @@ a {
 }
 
 .section:nth-child(5){
-	background: #e3e3e3;
+	background: #14161E;
 	z-index: -1;
 }
 
 .section:nth-child(6){
 	background-image: url("../img/conbg.svg");
 	background-size: cover;
-	background-color: #FFFFFF;
+	background-color: #14161E;
 	z-index: 1;
 	/*cursor: */
 }
@@ -149,7 +149,6 @@ a {
 	left: 45vw;
 	right: 15vw;
 
-	color: black;
 	font-size: 20px;
 }
 
@@ -165,7 +164,6 @@ a {
 #paint{
 	cursor: crosshair;
 	position: absolute;
-	z-index: 50;
 }
 /*----------------------------------------*/
 /*--------------navbar--------------------*/
@@ -233,7 +231,7 @@ li a.activelink {
 
 footer{
 	width: 100%;
-	background-color: #333333;
+	
 	padding: 10px 20px;
 	display: block;
 	position: absolute;
