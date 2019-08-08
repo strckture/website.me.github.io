@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
 	var aktuellePosition = window.location.href;
 
 	if (aktuellePosition.includes("#contact")){
-		canvas();
+		paint();
 	}
 
 });
