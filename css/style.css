@@ -97,7 +97,7 @@ a {
 }
 
 .section:nth-child(6){
-	background-image: url("../img/contactbgl.svg");
+	background-image: url("../img/conbg.svg");
 	background-color: #FFFFFF;
 	z-index: 1;
 	/*cursor: */
