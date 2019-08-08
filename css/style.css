@@ -98,6 +98,7 @@ a {
 
 .section:nth-child(6){
 	background-image: url("../img/conbg.svg");
+	background-size: cover;
 	background-color: #FFFFFF;
 	z-index: 1;
 	/*cursor: */
@@ -162,6 +163,7 @@ a {
 
 
 #paint{
+	cursor: crosshair;
 	position: absolute;
 	z-index: 50;
 }
