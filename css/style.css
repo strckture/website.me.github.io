@@ -164,7 +164,7 @@ a {
 }
 
 #paint{
-	cursor: url("../img/cursor.svg") 0 15, auto;
+	cursor: url("../img/cursor.cur") 0 15, auto;
 	position: absolute;
 }
 /*----------------------------------------*/
