@@ -9,6 +9,8 @@ var balls = [];
 
 var t = 0.0;
 
+var s = 0;
+
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
@@ -33,10 +35,19 @@ function draw() {
 
   translate(0,0,-100);
 
-  camera(mouseX, mouseY, (height/2.0) / tan(PI*30.0 / 180.0), width/2.0, height/2.0, 0, 0, 1, 0);
+  if(windowWidth < 720){
+    s +=0.3;
+    var xpos= cos(radians(s))*180;
+    var zpos= sin(radians(s))*180;
+
+    camera(xpos, 0, zpos, width/2, height/2, 0, 0, 1, 0);
+  } else {
+    camera(mouseX, mouseY, (height/2.0) / tan(PI*30.0 / 180.0), width/2.0, height/2.0, 0, 0, 1, 0);
+  }
+
   translate(width/2,height/2);
 
-  /*
+    /*
   push();
   translate(200,0,0);
   rotateY(frameCount*0.01);
