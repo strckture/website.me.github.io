@@ -43,7 +43,7 @@ function paint() {
 			if (!painting) return;
 			ctx.lineWidth = 4;     
 			ctx.lineCap = "round";
-			ctx.strokeStyle = "#2D9CCA";
+			ctx.strokeStyle = "#67FCF1";
 
 			ctx.lineTo(e.clientX, e.clientY);
 			ctx.stroke();
