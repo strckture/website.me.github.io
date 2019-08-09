@@ -92,8 +92,10 @@ a {
 }
 
 .section:nth-child(5){
-	background: #14161E;
-	z-index: -1;
+	background-image: url("../img/aboutbg.svg");
+	background-size: cover;
+	background: #FFFFFF;
+	z-index: 1;
 }
 
 .section:nth-child(6){
@@ -149,6 +151,7 @@ a {
 	left: 45vw;
 	right: 15vw;
 
+	color: black;
 	font-size: 20px;
 }
 
