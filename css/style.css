@@ -93,14 +93,14 @@ a {
 
 .section:nth-child(5){
 	background-image: url("../img/aboutbg.svg");
-	background-size: cover;
-	background: #FFFFFF;
+	background-size: left no-repeat;
+	background-color: #14161E;
 	z-index: 1;
 }
 
 .section:nth-child(6){
 	background-image: url("../img/conbg.svg");
-	background-size: cover;
+	background-size: left no-repeat;
 	background-color: #14161E;
 	z-index: 1;
 	/*cursor: */
