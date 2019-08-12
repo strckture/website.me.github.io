@@ -26,6 +26,10 @@ a {
 	color: black;
 }
 
+.black{
+	color: black;
+}
+
 .head {
 	margin-bottom: 30px;
 
@@ -93,14 +97,14 @@ a {
 
 .section:nth-child(5){
 	background-image: url("../img/aboutbg.svg");
-	background-size: left no-repeat;
-	background-color: #14161E;
+	background-size: cover;
+	background-color: #FFFFFF;
 	z-index: 1;
 }
 
 .section:nth-child(6){
 	background-image: url("../img/conbg.svg");
-	background-size: left no-repeat;
+	background-size: cover;
 	background-color: #14161E;
 	z-index: 1;
 	/*cursor: */
