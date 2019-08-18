@@ -22,10 +22,6 @@ a {
 	text-decoration: underline;
 }
 
-#black{
-	color: black;
-}
-
 .black{
 	color: black;
 }
@@ -127,15 +123,9 @@ a {
 	margin-right: 68vw;
 }
 
-.video{
-	width: 100vw;
-	position: absolute;
-
-	/*top: 33%;
-	left: 50vw;*/
-
-	bottom:0vh;
-	z-index: -1;
+video{
+	width: 100%;
+	height: auto;
 }
 
 .foto{
