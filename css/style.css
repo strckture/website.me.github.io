@@ -88,7 +88,7 @@ a {
 	position: absolute;
 	float: left;
 	top: 90vh;
-	left: 8vh;
+	left: 4vw;
 	transform-origin: bottom left;transform:rotate(-90deg);
 	font-size: 16px;
 	font-weight: normal;
