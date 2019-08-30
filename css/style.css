@@ -110,7 +110,8 @@ video{
 }
 
 .twitter{
-  width:50vw;
+	position: absolute;
+	width: 600px;
 }
 
 .foto{
@@ -132,14 +133,6 @@ video{
 	color: black;
 	font-size: 20px;
 }
-
-/*.contact{
-	position: absolute;
-	top: 33%;
-	left: 6vh;
-	margin-left: 40px;
-	margin-right: 70vw;
-}*/
 
 #paint{
 	cursor: url("../img/cursor.cur") 0 15, auto;
@@ -233,6 +226,3 @@ footer{
 	margin-right: 1vw;
 	position: relative;
 }
-
-
-

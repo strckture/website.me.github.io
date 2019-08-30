@@ -1,7 +1,5 @@
 $(document).ready(function(){
     $('#fullpage').fullpage({
-        //sectionsColor: ['#000000','#161616','#000000','#161616','#000000','#161616']
-        
         scrollingSpeed: 800,
 
         onLeave: function(origin, destination, direction) {

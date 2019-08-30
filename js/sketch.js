@@ -31,7 +31,6 @@ function setup() {
 
 function draw() {
   background(25,37,90);
-  //background(0);
 
   translate(0,0,-100);
 
