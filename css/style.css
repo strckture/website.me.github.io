@@ -88,12 +88,14 @@ a {
 	position: absolute;
 	float: left;
 	top: 90vh;
-	left: 4vw;
+	left: 1vw;
 	transform-origin: bottom left;transform:rotate(-90deg);
 	font-size: 16px;
 	font-weight: normal;
 	color: #FFFFFF;
 	letter-spacing: 0;
+
+	margin: 30px;
 }
 
 .prjcttext{
@@ -147,14 +149,11 @@ video{
 
 .logo {
 	float: left;
-	margin-left: 3vw;
+	margin-left: 1vw;
 	margin-top: 3vh;
 	margin-bottom: 0vh;
 
-	font-weight: normal;
-	font-size: 14px;
-	letter-spacing: 0;
-	line-height: 40px;
+	padding-left: 12px;
 }
 
 nav {
@@ -187,7 +186,7 @@ nav ul li a {
 	line-height: 40px;
 	/*color: #151515;*/
 	color: #fff;
-	padding: 12px 30px;
+	padding: 12px 30px;					/*change responsive interval* --> padding 12px 15px*/
 	text-decoration: none;
 	transition: .3s;
 }
