@@ -62,33 +62,69 @@ a {
 	z-index: 1;
 }
 
-.headline {
-	margin-bottom: 30px;
-	font-weight: medium;
-	font-size: 36px;
+@media screen and (min-width: 769px) {
+
+	.headline {
+		margin-bottom: 30px;
+		font-weight: medium;
+		font-size: 36px;
+	}
+
+	.subhead {
+		margin: 0px;
+		padding: 0px;
+		font-weight: normal;
+		font-size: 24px;
+	}
+
+	.center {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 48vh;
+		left: 51vw;
+		transform: translate(-50%,-50%);
+	}
 }
 
-.subhead {
-	margin: 0px;
-	padding: 0px;
-	font-weight: normal;
-	font-size: 24px;
+@media screen and (max-width: 768px) {
+
+	.headline {
+		margin-bottom: 30px;
+		font-weight: medium;
+		font-size: 24px;
+	}
+
+	.subhead {
+		margin: 0px;
+		padding: 0px;
+		font-weight: normal;
+		font-size: 20px;
+	}
+
+	.center {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 48vh;
+		left: 48.7vw;
+		transform: translate(-50%,-50%);
+	}
+
 }
 
-.center {
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 48vh;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
+
+
+
+
 
 .email {
 	position: absolute;
 	float: left;
 	top: 90vh;
 	left: 1vw;
+	bottom: 1vh;
+
 	transform-origin: bottom left;transform:rotate(-90deg);
 	font-size: 16px;
 	font-weight: normal;
@@ -182,14 +218,31 @@ nav ul {
 	display: flex;
 }
 
-nav ul li a {
-	line-height: 40px;
-	/*color: #151515;*/
-	color: #fff;
-	padding: 12px 30px;					/*change responsive interval* --> padding 12px 15px*/
-	text-decoration: none;
-	transition: .3s;
+@media screen and (min-width: 769px) {
+
+	nav ul li a {
+		line-height: 40px;
+		/*color: #151515;*/
+		color: #fff;
+		padding: 12px 30px;					
+		text-decoration: none;
+		transition: .3s;
+	}
+
 }
+
+@media screen and (max-width: 768px) {
+
+	nav ul li a {
+		line-height: 40px;
+		/*color: #151515;*/
+		color: #fff;
+		padding: 12px 20px;				
+		text-decoration: none;
+		transition: .3s;
+	}
+}
+
 
 li a:hover {
 	text-decoration: underline;
