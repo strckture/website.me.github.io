@@ -64,6 +64,8 @@ a {
 }
 
 /*smartphone--*/
+@media screen and (max-width: 480px) {
+	
 	.headline {
 		margin-bottom: 30px;
 		font-weight: medium;
@@ -86,6 +88,7 @@ a {
 		padding-left: 18vw;
 		padding-right: 9vw;
 	}
+}
 
 /*tablet--*/
 @media screen and (min-width: 481px) {
@@ -107,14 +110,14 @@ a {
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		top: 48vh;
+		top: 45vh;
 		left: 53vw;
 		transform: translate(-50%,-50%);
 	}
 }
 
 /*desktop--*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
 	.headline {
 		margin-bottom: 30px;
@@ -138,7 +141,6 @@ a {
 		transform: translate(-50%,-50%);
 	}
 }
-
 
 
 .email {
