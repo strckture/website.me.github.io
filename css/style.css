@@ -65,7 +65,7 @@ a {
 
 /*smartphone--*/
 @media screen and (max-width: 480px) {
-	
+
 	.headline {
 		margin-bottom: 30px;
 		font-weight: medium;
@@ -87,6 +87,26 @@ a {
 		margin-left: -50vw;
 		padding-left: 18vw;
 		padding-right: 9vw;
+	}
+
+	.prjcttext{
+		position: absolute;
+		top: 100px;
+	
+		margin-left: 1.5vw;
+		margin-right: 1.5vw;
+
+		padding-left: 12px;
+		padding-right: 20px;
+	}
+
+	.twitter{
+		position: absolute;
+		width: 120vw;
+
+		top: 73vh;
+		left: 50vw;
+		transform: translate(-50%,-50%);
 	}
 }
 
@@ -114,6 +134,19 @@ a {
 		left: 53vw;
 		transform: translate(-50%,-50%);
 	}
+
+	.prjcttext{
+		position: absolute;
+		top: 33%;
+		left: 4vw;
+		margin-left: 40px;
+		margin-right: 68vw;
+	}
+
+	.twitter{
+		position: absolute;
+		width: 600px;
+	}
 }
 
 /*desktop--*/
@@ -140,6 +173,19 @@ a {
 		left: 51vw;
 		transform: translate(-50%,-50%);
 	}
+
+	.prjcttext{
+		position: absolute;
+		top: 33%;
+		left: 4vw;
+		margin-left: 40px;
+		margin-right: 68vw;
+	}
+
+	.twitter{
+		position: absolute;
+		width: 600px;
+	}
 }
 
 
@@ -159,22 +205,9 @@ a {
 	margin: 30px;
 }
 
-.prjcttext{
-	position: absolute;
-	top: 33%;
-	left: 4vw;
-	margin-left: 40px;
-	margin-right: 68vw;
-}
-
 video{
 	width: 100%;
 	height: auto;
-}
-
-.twitter{
-	position: absolute;
-	width: 600px;
 }
 
 .foto{
@@ -210,7 +243,7 @@ video{
 
 .logo {
 	float: left;
-	margin-left: 1vw;
+	margin-left: 1.5vw;
 	margin-top: 3vh;
 	margin-bottom: 0vh;
 
