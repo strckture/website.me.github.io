@@ -34,7 +34,7 @@ function draw() {
 
   translate(0,0,-100);
 
-  if(windowWidth < 1260){
+  if(windowWidth < 1200){
     s +=0.3;
     var xpos= cos(radians(s))*180;
     var zpos= sin(radians(s))*180;
