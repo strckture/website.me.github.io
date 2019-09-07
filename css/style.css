@@ -363,7 +363,7 @@ a {
 		left: 45vw;
 		right: 15vw;
 
-		color: black;
+		color: green; /*test*/
 		font-size: 20px;
 	}
 }
