@@ -1,5 +1,5 @@
  var height = window.innerHeight;
- var a = setInterval(function() { $(window).scrollTop(-1); resize(); }, 500); 
+ var a = setInterval(function() { $(window).scrollTop(-1); resize(); }, 800); 
 
     $(window).on('resize', function() {
         resize();
