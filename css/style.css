@@ -84,7 +84,7 @@ a {
 
 	.center {
 		position: absolute;
-		top: 33vh;
+		top: 30vh;
 		left: 50vw;
 
 		margin-left: -50vw;
@@ -125,7 +125,7 @@ a {
 		width: 100%;
 		height: auto;
 
-		margin-bottom: 100px;
+		margin-bottom: 15vh;
 	}
 
 	.twitter{
@@ -135,7 +135,7 @@ a {
 
 		left: 50%;
 		transform: translate(-50%);
-		margin-bottom: 10vh;
+		margin-bottom: 4vh;
 	}
 
 	.section:nth-child(4){
@@ -162,7 +162,7 @@ a {
 
 		margin-left: 1.5vw;
 		margin-right: 1.5vw;
-		margin-bottom: 5vh;
+		margin-bottom: 1vh;
 
 		padding-left: 12px;
 		padding-right: 20px;
