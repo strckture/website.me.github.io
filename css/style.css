@@ -68,7 +68,7 @@ a {
 @media (max-width: 599px) {
 
 	.headline {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 
 		font-weight: medium;
 		font-size: 24px;
@@ -79,7 +79,7 @@ a {
 		padding: 0px;
 
 		font-weight: normal;
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.center {
@@ -92,32 +92,11 @@ a {
 		padding-right: 9vw;
 	}
 
-	.prjcttext{
-		position: absolute;
-		top: 100px;
-	
-		margin-left: 1.5vw;
-		margin-right: 1.5vw;
-
-		padding-left: 12px;
-		padding-right: 20px;
-	}
-
-	.twitter{
-		position: absolute;
-		width: 90vw;
-		bottom: 0;
-
-		left: 50%;
-		transform: translate(-50%);
-		margin-bottom: 3vh;
-	}
-
 	.email {
 		position: absolute;
 		float: left;
-		top: 85vh;
 		left: 2vw;
+		bottom: 0;
 
 		transform-origin: bottom left;transform:rotate(-90deg);
 
@@ -126,7 +105,37 @@ a {
 		color: #FFFFFF;
 		letter-spacing: 0;
 
-		margin: 30px;
+		margin: 5vh;
+	}
+
+	.prjcttext{
+		position: absolute;
+		top: 15vh;
+	
+		margin-left: 1.5vw;
+		margin-right: 1.5vw;
+
+		padding-left: 12px;
+		padding-right: 18px;
+	}
+
+	video{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+
+		margin-bottom: 100px;
+	}
+
+	.twitter{
+		position: absolute;
+		width: 75vw;
+		bottom: 0;
+
+		left: 50%;
+		transform: translate(-50%);
+		margin-bottom: 10vh;
 	}
 
 	.section:nth-child(4){
@@ -136,11 +145,12 @@ a {
 	}
 
 	.foto {
+		position: absolute;
 		width: 100%;
 		height: 40vh;
 		background: darkblue;
 
-		position: absolute;
+		margin-bottom: 5vh;
 	}
 
 	.about{
@@ -148,19 +158,16 @@ a {
 		bottom: 0;
 
 		color: black;
-		font-size: 20px;
+		font-size: 18px;
 
 		margin-left: 1.5vw;
 		margin-right: 1.5vw;
+		margin-bottom: 5vh;
 
 		padding-left: 12px;
 		padding-right: 20px;
 	}
 
-	video{
-		max-width: 100%;
-		height: auto;
-	}
 }
 
 
