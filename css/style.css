@@ -105,11 +105,12 @@ a {
 
 	.twitter{
 		position: absolute;
-		width: 125vw;
+		width: 90vw;
+		bottom: 0;
 
-		top: 73vh;
 		left: 50%;
-		transform: translate(-50%,-50%);
+		transform: translate(-50%);
+		margin-bottom: 3vh;
 	}
 
 	.email {
@@ -144,7 +145,7 @@ a {
 
 	.about{
 		position: absolute;
-		top: 40vh;
+		bottom: 0;
 
 		color: black;
 		font-size: 20px;
@@ -156,6 +157,10 @@ a {
 		padding-right: 20px;
 	}
 
+	video{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 
@@ -237,6 +242,11 @@ a {
 		color: black;
 		font-size: 20px;
 	}
+
+	video{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 /*tablet-landscape*/
@@ -299,6 +309,11 @@ a {
 
 		color: black;
 		font-size: 20px;
+	}
+
+	video{
+		max-width: 100%;
+		height: auto;
 	}
 }
 
@@ -366,13 +381,14 @@ a {
 		color: black; /*test*/
 		font-size: 20px;
 	}
+
+	video{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 
-video{
-	max-width: 100%;
-	height: auto;
-}
 
 /*.about{
 	position: absolute;
