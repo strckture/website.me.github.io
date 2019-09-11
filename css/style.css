@@ -50,10 +50,8 @@ a {
 }
 
 .section:nth-child(5){
-	background-image: url("../img/aboutbg.svg");
-	background-size: cover;
 	background-color: #FFFFFF;
-	z-index: 1;
+	z-index: -1;
 }
 
 .section:nth-child(6){
@@ -117,6 +115,8 @@ a {
 
 		padding-left: 12px;
 		padding-right: 18px;
+
+		font-size: 18px;
 	}
 
 	video{
@@ -128,7 +128,7 @@ a {
 		margin-bottom: 15vh;
 	}
 
-	.twitter{
+	/*.twitter{
 		position: absolute;
 		width: 75vw;
 		bottom: 0;
@@ -136,6 +136,16 @@ a {
 		left: 50%;
 		transform: translate(-50%);
 		margin-bottom: 4vh;
+	}*/
+
+	.twitter {
+		display: none;
+	}
+
+	.section:nth-child(3){
+		background-image: url("../img/twitterbirdphone.svg");
+		background-size: cover;
+		z-index: -1;
 	}
 
 	.section:nth-child(4){
@@ -147,7 +157,7 @@ a {
 	.foto {
 		position: absolute;
 		width: 100%;
-		height: 38vh;
+		height: 37vh;
 		background: darkblue;
 	}
 
@@ -166,6 +176,9 @@ a {
 	}
 
 }
+
+
+
 
 
 
@@ -392,17 +405,6 @@ a {
 	}
 }
 
-
-
-/*.about{
-	position: absolute;
-	top: 30vh;
-	left: 45vw;
-	right: 15vw;
-
-	color: black;
-	font-size: 20px;
-}*/
 
 #paint{
 	cursor: url("../img/cursor.cur") 0 15, auto;
