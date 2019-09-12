@@ -18,8 +18,12 @@ a {
 	text-decoration: underline;
 }
 
-.black{
+.black {
 	color: black;
+}
+
+.gray {
+	color: gray;
 }
 
 
@@ -55,19 +59,18 @@ a {
 }
 
 .section:nth-child(6){
-	background-image: url("../img/conbg.svg");
-	background-size: cover;
+	/*background-image: url("../img/conbg.svg");
+	background-size: cover;*/
 	background-color: #14161E;
 	z-index: 1;
 }
-
+/*------------------------------------------------------------*/
 
 /*phone-only*/
 @media (max-width: 599px) {
 
 	.headline {
 		margin-bottom: 20px;
-
 		font-weight: medium;
 		font-size: 24px;
 	}
@@ -75,7 +78,6 @@ a {
 	.subhead {
 		margin: 0px;
 		padding: 0px;
-
 		font-weight: normal;
 		font-size: 18px;
 	}
@@ -84,7 +86,6 @@ a {
 		position: absolute;
 		top: 30vh;
 		left: 50vw;
-
 		margin-left: -50vw;
 		padding-left: 18vw;
 		padding-right: 9vw;
@@ -95,9 +96,7 @@ a {
 		float: left;
 		left: 2vw;
 		bottom: 0;
-
 		transform-origin: bottom left;transform:rotate(-90deg);
-
 		font-size: 16px;
 		font-weight: normal;
 		color: #FFFFFF;
@@ -109,10 +108,8 @@ a {
 	.prjcttext{
 		position: absolute;
 		top: 15vh;
-	
 		margin-left: 1.5vw;
 		margin-right: 1.5vw;
-
 		padding-left: 12px;
 		padding-right: 18px;
 
@@ -121,11 +118,8 @@ a {
 
 	video{
 		position: absolute;
-		bottom: 0;
 		width: 100%;
 		height: auto;
-
-		margin-bottom: 15vh;
 	}
 
 	/*.twitter{
@@ -175,12 +169,26 @@ a {
 		padding-right: 20px;
 	}
 
+		footer{
+		width: 100%;
+		
+		display: block;
+		position: absolute;
+		bottom: 0;
+		font-size: 18px;
+		text-align: left;
+
+		margin-left: 1.5vw;
+		margin-top: 3vh;
+
+		padding-left: 12px;
+
+		color: gray;
+
+	}
+
 }
-
-
-
-
-
+/*------------------------------------------------------------*/
 
 /*tablet-portrait*/
 @media (min-width: 600px) {
@@ -203,41 +211,56 @@ a {
 		padding: 0;
 		position: absolute;
 		top: 45vh;
-		left: 53vw;
-		transform: translate(-50%,-50%);
-	}
-
-	.prjcttext{
-		position: absolute;
-		top: 33%;
-		left: 4vw;
-		margin-left: 40px;
-		margin-right: 68vw;
-	}
-
-	.twitter{
-		position: absolute;
-		width: 600px;
-
-		top: 50vh;
-		left: 50%;
+		left: 54vw;
 		transform: translate(-50%,-50%);
 	}
 
 	.email {
 		position: absolute;
 		float: left;
-		top: 85vh;
-		left: 2vw;
-
+		left: 1vw;
+		bottom: 0;
 		transform-origin: bottom left;transform:rotate(-90deg);
-
 		font-size: 16px;
 		font-weight: normal;
 		color: #FFFFFF;
 		letter-spacing: 0;
 
-		margin: 30px;
+		margin: 4vh;
+	}
+
+	.prjcttext{
+		position: absolute;
+		top: 15vh;
+		margin-left: 1.5vw;
+		margin-right: 1.5vw;
+		padding-left: 12px;
+		padding-right: 18px;
+
+		font-size: 20px;
+	}
+
+	/*.prjcttext{
+		position: absolute;
+		top: 33%;
+		left: 4vw;
+		margin-left: 40px;
+		margin-right: 68vw;
+	}*/
+
+	.twitter{
+		position: absolute;
+		width: 50vw;
+		top: 45vh;
+
+		left: 50%;
+		transform: translate(-50%);
+	}
+
+	.section:nth-child(4){
+		background-image: url("../img/circletablet.png");
+		background-size: cover;
+		z-index: -1;
 	}
 
 	.foto{
@@ -266,6 +289,7 @@ a {
 	}
 }
 
+/*------------------------------------------------------------*/
 /*tablet-landscape*/
 @media (min-width: 900px) {
 
@@ -334,7 +358,7 @@ a {
 	}
 }
 
-
+/*------------------------------------------------------------*/
 /*desktop*/
 @media (min-width: 1200px) {
 
@@ -395,7 +419,7 @@ a {
 		left: 45vw;
 		right: 15vw;
 
-		color: black; /*test*/
+		color: black; 
 		font-size: 20px;
 	}
 
@@ -404,7 +428,7 @@ a {
 		height: auto;
 	}
 }
-
+/*------------------------------------------------------------*/
 
 #paint{
 	cursor: url("../img/cursor.cur") 0 15, auto;
@@ -489,7 +513,7 @@ li a.activelink {
 /*----------------------------------------*/
 /*----------------footer------------------*/
 
-footer{
+/*footer{
 	width: 100%;
 	
 	padding: 10px 20px;
@@ -498,7 +522,7 @@ footer{
 	bottom: 0;
 	font-size: 12px;
 	text-align: left;
-}
+}*/
 
 .left{
 	float: left;
