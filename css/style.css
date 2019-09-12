@@ -26,7 +26,6 @@ a {
 	color: gray;
 }
 
-
 /*--------------scroll/content--------------*/
 
 .section {
@@ -229,7 +228,7 @@ a {
 		margin: 4vh;
 	}
 
-	.prjcttext{
+	.prjcttext {
 		position: absolute;
 		top: 15vh;
 		margin-left: 1.5vw;
@@ -240,15 +239,12 @@ a {
 		font-size: 20px;
 	}
 
-	/*.prjcttext{
-		position: absolute;
-		top: 33%;
-		left: 4vw;
-		margin-left: 40px;
-		margin-right: 68vw;
-	}*/
+	video {
+		max-width: 100%;
+		height: auto;
+	}
 
-	.twitter{
+	.twitter {
 		position: absolute;
 		width: 50vw;
 		top: 45vh;
@@ -257,36 +253,52 @@ a {
 		transform: translate(-50%);
 	}
 
-	.section:nth-child(4){
+	.section:nth-child(4) {
 		background-image: url("../img/circletablet.png");
 		background-size: cover;
 		z-index: -1;
 	}
 
-	.foto{
+	.foto {
+		position: absolute;
 		width: 300px;
 		height: 450px;
 		background: black;
-
-		position: absolute;
-		left: 20vw;
+		
 		top: 25vh;
+
+		margin-left: 10vw;
+		padding-left: 12px;
 	}
 
-	.about{
+	.about {
 		position: absolute;
-		top: 30vh;
-		left: 45vw;
-		right: 15vw;
-
+		top: 25vh;
+		left: 53vw;
+		right: 10vw;
 		color: black;
 		font-size: 20px;
 	}
 
-	video{
-		max-width: 100%;
-		height: auto;
+	footer{
+		width: 100%;
+		
+		display: block;
+		position: absolute;
+		bottom: 0;
+		font-size: 18px;
+		text-align: left;
+
+		margin-left: 1.5vw;
+		margin-top: 3vh;
+		margin-bottom: 1.5vh;
+
+		padding-left: 12px;
+
+		color: gray;
+
 	}
+
 }
 
 /*------------------------------------------------------------*/
