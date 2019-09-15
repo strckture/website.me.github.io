@@ -61,7 +61,7 @@ a {
 	/*background-image: url("../img/conbg.svg");
 	background-size: cover;*/
 	background-color: #14161E;
-	z-index: 1;
+	z-index: -1;
 }
 /*------------------------------------------------------------*/
 
@@ -120,16 +120,6 @@ a {
 		height: auto;
 	}
 
-	/*.twitter{
-		position: absolute;
-		width: 75vw;
-		bottom: 0;
-
-		left: 50%;
-		transform: translate(-50%);
-		margin-bottom: 4vh;
-	}*/
-
 	.twitter {
 		display: none;
 	}
@@ -176,6 +166,10 @@ a {
 		padding-left: 12px;
 		color: gray;
 
+	}
+
+	.sketch {
+		display: none;
 	}
 }
 /*------------------------------------------------------------*/
@@ -280,8 +274,10 @@ a {
 		color: gray;
 
 	}
+
 }
 /*------------------------------------------------------------*/
+
 /*tablet-landscape*/
 @media (min-width: 900px) {
 
@@ -309,49 +305,45 @@ a {
 
 	.prjcttext{
 		position: absolute;
-		top: 28vh;
+		top: 33vh;
 		left: 3vw;
 		right: 55vw;
 
 		padding: 12px;
 	}
 
-	video{
+	.twitter {
 		position: absolute;
-		max-width: 100%;
-		height: auto;
-		top: 11vh;
+		width: 40vw;
+		top: 30vh;
+		left: 70vw;
+	}
+
+	.section:nth-child(4){
+		background-image: url("../img/circlefontv4.png");
+		background-size: cover;
 		z-index: -1;
 	}
 
-	.twitter{
-		position: absolute;
-		width: 600px;
-
-		top: 50vh;
-		left: 50%;
-		transform: translate(-50%,-50%);
-	}
-
 	.foto{
+		position: absolute;
 		width: 300px;
 		height: 450px;
 		background: black;
 
-		position: absolute;
-		left: 20vw;
+		left: 7vw;
 		top: 25vh;
 	}
 
 	.about{
 		position: absolute;
-		top: 30vh;
-		left: 45vw;
-		right: 15vw;
+		top: 25vh;
+		left: 50vw;
 
 		color: black;
 		font-size: 20px;
 	}
+
 }
 
 /*------------------------------------------------------------*/
@@ -380,51 +372,68 @@ a {
 		transform: translate(-50%,-50%);
 	}
 
-	.prjcttext{
+	video{
 		position: absolute;
-		top: 33%;
-		left: 4vw;
-		margin-left: 40px;
-		margin-right: 68vw;
+		max-width: 100%;
+		height: auto;
+		z-index: -1;
+	}
+
+	.prjcttext {
+		position: absolute;
+		top: 33vh;
+		right: 66vw;
 	}
 
 	.twitter{
 		position: absolute;
-		width: 50vw;
-
-		margin: 0;
-		padding: 0;
-		top: 50vh;
+		width: 30vw;
+		top: 31vh;
 		left: 50%;
-		transform: translate(-50%,-50%);
+		transform: translate(-50%);
 	}
 
 	.foto{
+		position: absolute;
 		width: 300px;
 		height: 450px;
 		background: black;
 
-		position: absolute;
-		left: 20vw;
+		left: 10vw;
+
 		top: 25vh;
 	}
 
 	.about{
 		position: absolute;
-		top: 30vh;
-		left: 45vw;
-		right: 15vw;
+		top: 25vh;
+		left: 44vw;
+		right: 20vw;
 
 		color: black; 
 		font-size: 20px;
 	}
 
-	video{
-		max-width: 100%;
-		height: auto;
+	.sketch{
+		position: absolute;
+		float: right;
+		right: -7vw;
+		top: 33%;
+		transform-origin: bottom left;transform:rotate(90deg);
+
+		font-size: 20px;
+		font-weight: normal;
+		color: #FFFFFF;
+		letter-spacing: 0;
 	}
 }
 /*------------------------------------------------------------*/
+
+@media (max-width: 1200px) {
+	.sketch{
+		display: none;
+	}
+}
 
 #paint{
 	cursor: url("../img/cursor.cur") 0 15, auto;
@@ -508,17 +517,6 @@ li a.activelink {
 
 /*----------------------------------------*/
 /*----------------footer------------------*/
-
-/*footer{
-	width: 100%;
-	
-	padding: 10px 20px;
-	display: block;
-	position: absolute;
-	bottom: 0;
-	font-size: 12px;
-	text-align: left;
-}*/
 
 .left{
 	float: left;
