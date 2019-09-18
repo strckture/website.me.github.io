@@ -410,7 +410,8 @@ a {
 	.sketch{
 		position: absolute;
 		float: right;
-		right: -7vw;
+		right: 0;
+		margin-right: -7vw;
 		top: 33%;
 		transform-origin: bottom left;transform:rotate(90deg);
 		font-size: 20px;
