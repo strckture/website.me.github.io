@@ -125,7 +125,7 @@ a {
 	}
 
 	.section:nth-child(3){
-		background-image: url("../img/twitterbirdphone.svg");
+		background-image: url("../img/twitterbgphone2.svg");
 		background-size: cover;
 		z-index: -1;
 	}
@@ -298,7 +298,7 @@ a {
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		top: 45vh;
+		top: 42vh;
 		left: 53vw;
 		transform: translate(-50%,-50%);
 	}
@@ -313,7 +313,7 @@ a {
 
 	.twitter {
 		position: absolute;
-		width: 40vw;
+		width: 35vw;
 		top: 30vh;
 		left: 70vw;
 	}
@@ -386,8 +386,7 @@ a {
 		position: absolute;
 		width: 30vw;
 		top: 31vh;
-		left: 50%;
-		transform: translate(-50%);
+		left: 66vw;
 	}
 
 	.foto{
