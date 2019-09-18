@@ -298,14 +298,14 @@ a {
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		top: 48vh;
+		top: 45vh;
 		left: 53vw;
 		transform: translate(-50%,-50%);
 	}
 
 	.prjcttext{
 		position: absolute;
-		top: 33vh;
+		top: 29vh;
 		left: 3vw;
 		right: 55vw;
 		padding: 12px;
@@ -326,16 +326,16 @@ a {
 
 	.foto{
 		position: absolute;
-		width: 300px;
-		height: 450px;
+		width: 25vw;
+		height: 55vh;
 		background: black;
-		left: 7vw;
-		top: 25vh;
+		left: 11vw;
+		top: 20vh;
 	}
 
 	.about{
 		position: absolute;
-		top: 25vh;
+		top: 20vh;
 		left: 50vw;
 		color: black;
 		font-size: 20px;
