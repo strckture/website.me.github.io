@@ -393,26 +393,27 @@ a {
 		position: absolute;
 		width: 300px;
 		height: 450px;
+		transform: translate(50%);
+		left: 0vw;
 		background: black;
-		left: 10vw;
 		top: 25vh;
 	}
 
 	.about{
 		position: absolute;
 		top: 25vh;
-		left: 44vw;
+		left: 45vw;
 		right: 20vw;
 		color: #FFFFFF; 
 		font-size: 20px;
 	}
 
 	.sketch{
-		position: absolute;
-		float: right;
-		right: 0;
-		margin-right: -7vw;
-		top: 33%;
+		position: relative;
+		float: left;
+		left: 95.5vw;
+		/*margin-right: -10vw;*/
+		top: 33vh;
 		transform-origin: bottom left;transform:rotate(90deg);
 		font-size: 20px;
 		font-weight: normal;
