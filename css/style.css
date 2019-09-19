@@ -394,7 +394,7 @@ a {
 		width: 300px;
 		height: 450px;
 		transform: translate(50%);
-		left: 0vw;
+		left: 10vw;
 		background: black;
 		top: 25vh;
 	}
@@ -408,18 +408,18 @@ a {
 		font-size: 20px;
 	}
 
-	.sketch{
+	/*.sketch{
 		position: relative;
 		float: left;
 		left: 95.5vw;
-		/*margin-right: -10vw;*/
+		/*margin-right: -10vw;
 		top: 33vh;
 		transform-origin: bottom left;transform:rotate(90deg);
 		font-size: 20px;
 		font-weight: normal;
 		color: #FFFFFF;
 		letter-spacing: 0;
-	}
+	}*/
 }
 /*------------------------------------------------------------*/
 
