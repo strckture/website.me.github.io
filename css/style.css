@@ -58,9 +58,7 @@ a {
 }
 
 .section:nth-child(6){
-	/*background-image: url("../img/conbg.svg");
-	background-size: cover;*/
-	background-color: #14161E;
+	background-color: #121623;
 	z-index: -1;
 }
 
@@ -383,10 +381,30 @@ a {
 	}
 
 	.twitter{
+		display: none;
+	}
+
+	.defaulttwitter{
 		position: absolute;
 		width: 30vw;
 		top: 31vh;
-		left: 66vw;
+		left: 50vw;
+	}
+
+	.skeletontwitter{
+		position: absolute;
+		width: 27vw;
+		top: 32vh;
+		left: 52.2vw;
+	}
+
+	.xraystate{
+		opacity: 0;
+		transition: 0.5s;
+	}
+
+	.xray:hover .xraystate{
+		opacity: 1;
 	}
 
 	.foto{
@@ -419,11 +437,33 @@ a {
 		color: #FFFFFF;
 		letter-spacing: 0;
 	}*/
+
+	.raster{
+		position: absolute;
+		transform: translate(-50%,-50%);
+		left: 50%;
+		top: 50%;
+		z-index: -1;
+		height: 100%;
+		width: auto;
+	}
 }
 /*------------------------------------------------------------*/
 
 @media (max-width: 1200px) {
 	.sketch{
+		display: none;
+	}
+
+	.raster{
+		display: none;
+	}
+
+	.defaulttwitter{
+		display: none;
+	}
+
+	.skeletontwitter{
 		display: none;
 	}
 }
