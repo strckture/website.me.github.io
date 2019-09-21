@@ -270,6 +270,7 @@ a {
 		margin-bottom: 1.5vh;
 		padding-left: 12px;
 		color: gray;
+		/*z-index: -1;*/
 
 	}
 
@@ -546,17 +547,31 @@ li a.activelink {
 }
 
 /*----------------------------------------*/
-/*----------------footer------------------*/
 
-/*.left{
-	float: left;
-	position: relative;
-	left: 2vw;
+/*---------------Impressum----------------*/
+
+
+.imp{
+	margin-top: 15vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+
+	padding-bottom: 10vh;
 }
 
-.right{
-	float: right;
-	right: 4vw;
-	margin-right: 1vw;
-	position: relative;
-}*/
+.navblack{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.back{
+	margin-bottom: 3vh;
+}
+
+
+
+
+
+
+
+
+
