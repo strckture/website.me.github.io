@@ -169,6 +169,10 @@ a {
 	.sketch {
 		display: none;
 	}
+
+	.oneline{
+		display: none;
+	}
 }
 /*------------------------------------------------------------*/
 
@@ -274,6 +278,15 @@ a {
 
 	}
 
+	.oneline{
+		position: absolute;
+		width: 23vw;
+		height: auto;
+		top: 45vh;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
 }
 /*------------------------------------------------------------*/
 
@@ -338,6 +351,13 @@ a {
 		left: 50vw;
 		color: #FFFFFF;
 		font-size: 20px;
+	}
+
+	.oneline{
+		position: absolute;
+		width: 18vw;
+		top: 30vh;
+		left: 70vw;
 	}
 
 }
@@ -448,6 +468,10 @@ a {
 		height: 100%;
 		width: auto;
 	}
+
+	.oneline{
+		display: none;
+	}
 }
 /*------------------------------------------------------------*/
 
@@ -465,6 +489,10 @@ a {
 	}
 
 	.skeletontwitter{
+		display: none;
+	}
+
+	#paint{
 		display: none;
 	}
 }
@@ -537,7 +565,6 @@ nav ul {
 	}
 }
 
-
 li a:hover {
 	text-decoration: underline;
 }
@@ -566,12 +593,4 @@ li a.activelink {
 .back{
 	margin-bottom: 3vh;
 }
-
-
-
-
-
-
-
-
 
