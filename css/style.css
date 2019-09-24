@@ -152,7 +152,7 @@ a {
 		padding-right: 20px;
 	}
 
-		footer{
+	footer{
 		width: 100%;
 		display: block;
 		position: absolute;
@@ -282,7 +282,7 @@ a {
 		position: absolute;
 		width: 23vw;
 		height: auto;
-		top: 45vh;
+		top: 43vh;
 		left: 50%;
 		transform: translate(-50%);
 	}
@@ -338,10 +338,11 @@ a {
 
 	.foto{
 		position: absolute;
-		width: 25vw;
-		height: 55vh;
+		width: 300px;
+		height: 450px;
 		background: black;
-		left: 11vw;
+		right: 53vw;
+		/*left: 11vw;*/
 		top: 20vh;
 	}
 
@@ -581,7 +582,6 @@ li a.activelink {
 	margin-top: 15vh;
 	margin-left: 5vw;
 	margin-right: 5vw;
-
 	padding-bottom: 10vh;
 }
 
