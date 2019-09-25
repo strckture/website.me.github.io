@@ -114,6 +114,7 @@ a {
 
 	video{
 		position: absolute;
+		top: 45vh;
 		width: 100%;
 		height: auto;
 	}
@@ -225,7 +226,9 @@ a {
 	}
 
 	video {
-		max-width: 100%;
+		position: absolute;
+		width: 100%;
+		top: 45vh;
 		height: auto;
 	}
 
@@ -320,6 +323,14 @@ a {
 		left: 3vw;
 		right: 55vw;
 		padding: 12px;
+	}
+
+	video{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: -1;
 	}
 
 	.twitter {
