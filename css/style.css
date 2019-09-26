@@ -1,4 +1,4 @@
-html, body {
+html, body{
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -8,27 +8,27 @@ html, body {
 	font-size: 19px;
 }
 
-h1 h2 h3 p img {
+h1 h2 h3 p img{
 	margin: 0;
 	padding: 0;
 }
 
-a {
+a{
 	color: #fff;
 	text-decoration: underline;
 }
 
-.black {
+.black{
 	color: black;
 }
 
-.gray {
+.gray{
 	color: gray;
 }
 
 /*--------------scroll/content--------------*/
 
-.section {
+.section{
 	position: relative;
 }
 
@@ -65,22 +65,22 @@ a {
 /*------------------------------------------------------------*/
 
 /*phone-only*/
-@media (max-width: 599px) {
+@media (max-width: 599px){
 
-	.headline {
+	.headline{
 		margin-bottom: 20px;
 		font-weight: medium;
 		font-size: 24px;
 	}
 
-	.subhead {
+	.subhead{
 		margin: 0px;
 		padding: 0px;
 		font-weight: normal;
 		font-size: 18px;
 	}
 
-	.center {
+	.center{
 		position: absolute;
 		top: 30vh;
 		left: 50vw;
@@ -89,7 +89,7 @@ a {
 		padding-right: 9vw;
 	}
 
-	.email {
+	.email{
 		position: absolute;
 		float: left;
 		left: 2vw;
@@ -111,23 +111,19 @@ a {
 		padding-right: 18px;
 		font-size: 18px;
 	}
-
-	video{
+	
+	.phonevid{
 		position: absolute;
-		top: 45vh;
+		z-index: -1;
 		width: 100%;
-		height: auto;
+		overflow: hidden;
 	}
 
-	/*iframe{
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-		z-index: 
-	}*/
-
-	.twitter {
+	.pcvid{
+		display: none;
+	}
+ 
+	.twitter{
 		display: none;
 	}
 
@@ -143,7 +139,7 @@ a {
 		z-index: -1;
 	}
 
-	.foto {
+	.foto{
 		position: absolute;
 		width: 100%;
 		height: 40vh;
@@ -175,10 +171,6 @@ a {
 
 	}
 
-	.sketch {
-		display: none;
-	}
-
 	.oneline{
 		display: none;
 	}
@@ -188,20 +180,20 @@ a {
 /*tablet-portrait*/
 @media (min-width: 600px) {
 
-	.headline {
+	.headline{
 		margin-bottom: 30px;
 		font-weight: medium;
 		font-size: 36px;
 	}
 
-	.subhead {
+	.subhead{
 		margin: 0px;
 		padding: 0px;
 		font-weight: normal;
 		font-size: 24px;
 	}
 
-	.center {
+	.center{
 		margin: 0;
 		padding: 0;
 		position: absolute;
@@ -210,7 +202,7 @@ a {
 		transform: translate(-50%,-50%);
 	}
 
-	.email {
+	.email{
 		position: absolute;
 		float: left;
 		left: 1vw;
@@ -223,7 +215,7 @@ a {
 		margin: 4vh;
 	}
 
-	.prjcttext {
+	.prjcttext{
 		position: absolute;
 		top: 15vh;
 		margin-left: 1.5vw;
@@ -233,14 +225,18 @@ a {
 		font-size: 20px;
 	}
 
-	video {
+	.phonevid{
 		position: absolute;
 		width: 100%;
-		top: 45vh;
-		height: auto;
+		height: 100%;
+		z-index:-1;
 	}
 
-	.twitter {
+	.pcvid{
+		display: none;
+	}
+
+	.twitter{
 		position: absolute;
 		width: 50vw;
 		top: 45vh;
@@ -248,13 +244,13 @@ a {
 		transform: translate(-50%);
 	}
 
-	.section:nth-child(4) {
+	.section:nth-child(4){
 		background-image: url("../img/circletablet.png");
 		background-size: cover;
 		z-index: -1;
 	}
 
-	.foto {
+	.foto{
 		position: absolute;
 		width: 300px;
 		height: 450px;
@@ -264,7 +260,7 @@ a {
 		padding-left: 12px;
 	}
 
-	.about {
+	.about{
 		position: absolute;
 		top: 25vh;
 		left: 53vw;
@@ -301,22 +297,22 @@ a {
 /*------------------------------------------------------------*/
 
 /*tablet-landscape*/
-@media (min-width: 900px) {
+@media (min-width: 900px){
 
-	.headline {
+	.headline{
 		margin-bottom: 30px;
 		font-weight: medium;
 		font-size: 36px;
 	}
 
-	.subhead {
+	.subhead{
 		margin: 0px;
 		padding: 0px;
 		font-weight: normal;
 		font-size: 24px;
 	}
 
-	.center {
+	.center{
 		margin: 0;
 		padding: 0;
 		position: absolute;
@@ -333,15 +329,19 @@ a {
 		padding: 12px;
 	}
 
-	video{
+	.pcvid{
 		position: absolute;
-		top: 0;
+		display: block;
 		width: 100%;
 		height: auto;
 		z-index: -1;
 	}
 
-	.twitter {
+	.phonevid{
+		display: none;
+	}
+
+	.twitter{
 		position: absolute;
 		width: 35vw;
 		top: 30vh;
@@ -360,7 +360,6 @@ a {
 		height: 450px;
 		background: black;
 		right: 53vw;
-		/*left: 11vw;*/
 		top: 20vh;
 	}
 
@@ -378,27 +377,26 @@ a {
 		top: 30vh;
 		left: 70vw;
 	}
-
 }
 
 /*------------------------------------------------------------*/
 /*desktop*/
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
 
-	.headline {
+	.headline{
 		margin-bottom: 30px;
 		font-weight: medium;
 		font-size: 36px;
 	}
 
-	.subhead {
+	.subhead{
 		margin: 0px;
 		padding: 0px;
 		font-weight: normal;
 		font-size: 24px;
 	}
 
-	.center {
+	.center{
 		margin: 0;
 		padding: 0;
 		position: absolute;
@@ -407,14 +405,7 @@ a {
 		transform: translate(-50%,-50%);
 	}
 
-	video{
-		position: absolute;
-		max-width: 100%;
-		height: auto;
-		z-index: -1;
-	}
-
-	.prjcttext {
+	.prjcttext{
 		position: absolute;
 		top: 33vh;
 		right: 66vw;
@@ -468,7 +459,6 @@ a {
 	.sketch{
 		position: absolute;
 		float: right;
-
 		top: 54vh;
 		transform-origin: bottom right;transform:rotate(90deg);
 		right: 5vw;
@@ -476,6 +466,7 @@ a {
 		font-weight: normal;
 		color: #FFFFFF;
 		letter-spacing: 0;
+		z-index: -1;
 	}
 
 	.raster{
@@ -494,7 +485,7 @@ a {
 }
 /*------------------------------------------------------------*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px){
 	.sketch{
 		display: none;
 	}
@@ -524,10 +515,10 @@ a {
 /*----------------------------------------*/
 /*--------------navbar--------------------*/
 
-#nav {
+#nav{
 }
 
-.logo {
+.logo{
 	float: left;
 	margin-left: 1.5vw;
 	margin-top: 3vh;
@@ -535,7 +526,7 @@ a {
 	padding-left: 12px;
 }
 
-nav {
+nav{
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -550,7 +541,7 @@ nav {
 	font-weight: normal;
 }
 
-nav ul {
+nav ul{
 	list-style: none;
 	float: right;
 	margin: 0;
@@ -561,9 +552,9 @@ nav ul {
 	display: flex;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px){
 
-	nav ul li a {
+	nav ul li a{
 		line-height: 40px;
 		color: #fff;
 		padding: 12px 30px;					
@@ -573,9 +564,9 @@ nav ul {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
 
-	nav ul li a {
+	nav ul li a{
 		line-height: 40px;
 		color: #fff;
 		padding: 12px 20px;				
@@ -584,17 +575,16 @@ nav ul {
 	}
 }
 
-li a:hover {
+li a:hover{
 	text-decoration: underline;
 }
 
-li a.activelink {
+li a.activelink{
 	text-decoration: underline;
 }
 
 /*----------------------------------------*/
 /*---------------Impressum----------------*/
-
 
 .imp{
 	margin-top: 15vh;
