@@ -114,9 +114,9 @@ a{
 	
 	.phonevid{
 		position: absolute;
+		height: 100%;
+		width: auto;
 		z-index: -1;
-		width: 100%;
-		overflow: hidden;
 	}
 
 	.pcvid{
@@ -227,9 +227,9 @@ a{
 
 	.phonevid{
 		position: absolute;
-		width: 100%;
 		height: 100%;
-		z-index:-1;
+		width: auto;
+		z-index: -1;
 	}
 
 	.pcvid{
