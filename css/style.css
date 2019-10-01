@@ -37,12 +37,12 @@ a{
 }
 
 .section:nth-child(2){
-	background: #000000;
+	/* background: #000000; */
 	z-index: -1;
 }
 
 .section:nth-child(3){
-	/* background: #243447; */
+	background: #243447;
 	z-index: -1;
 }
 
