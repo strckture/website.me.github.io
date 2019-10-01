@@ -42,7 +42,7 @@ a{
 }
 
 .section:nth-child(3){
-	background: #243447;
+	/* background: #243447; */
 	z-index: -1;
 }
 
@@ -117,6 +117,8 @@ a{
 		height: 100%;
 		width: 100%;
 		z-index: -1;
+		bottom: 0;
+		left: 0;
 	}
 
 	.pcvid{
