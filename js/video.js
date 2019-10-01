@@ -18,7 +18,8 @@ window.addEventListener("hashchange", () => {
 
 function video_start() {
 	setTimeout(function(){
-		document.getElementById("video_background").play();
+		document.getElementById("videophone_background").play();
+		document.getElementById("video_start").play();
 	},2000);
 	
 }

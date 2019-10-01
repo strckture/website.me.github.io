@@ -37,7 +37,7 @@ a{
 }
 
 .section:nth-child(2){
-	background: #000000;
+	/* background: #000000; */
 	z-index: -1;
 }
 
@@ -115,8 +115,10 @@ a{
 	.phonevid{
 		position: absolute;
 		height: 100%;
-		width: auto;
+		width: 100%;
 		z-index: -1;
+		bottom: 0;
+		left: 0;
 	}
 
 	.pcvid{
