@@ -117,8 +117,6 @@ a{
 		height: 100%;
 		width: 100%;
 		z-index: -1;
-		bottom: 0;
-		left: 0;
 	}
 
 	.pcvid{
@@ -230,7 +228,7 @@ a{
 	.phonevid{
 		position: absolute;
 		height: 100%;
-		width: auto;
+		width: 100%;
 		z-index: -1;
 	}
 
@@ -629,11 +627,4 @@ li a.activelink{
 
 .TIlogo{
 	width: 90vw;
-}
-
-.vidtest{
-	left: 0;
-	top: 10vh;
-	width: 640px;
-
 }
