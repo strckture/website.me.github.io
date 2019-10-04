@@ -115,7 +115,7 @@ a{
 	.phonevid{
 		position: absolute;
 		height: 100%;
-		width: 100%;
+		width: auto;
 		z-index: -1;
 	}
 
@@ -228,7 +228,7 @@ a{
 	.phonevid{
 		position: absolute;
 		height: 100%;
-		width: 100%;
+		width: auto;
 		z-index: -1;
 	}
 
@@ -319,6 +319,11 @@ a{
 		top: 42vh;
 		left: 53vw;
 		transform: translate(-50%,-50%);
+	}
+
+	.textbg{
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.8);
 	}
 
 	.prjcttext{
