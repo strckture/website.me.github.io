@@ -631,4 +631,9 @@ li a.activelink{
 	width: 90vw;
 }
 
+.vidtest{
+	left: 0;
+	top: 10vh;
+	width: 640px;
 
+}
