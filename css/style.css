@@ -115,7 +115,8 @@ a{
 	.phonevid{
 		position: absolute;
 		height: 100%;
-		width: auto;
+		width: 100%;
+		object-fit: cover;
 		z-index: -1;
 	}
 
@@ -228,7 +229,8 @@ a{
 	.phonevid{
 		position: absolute;
 		height: 100%;
-		width: auto;
+		width: 100%;
+		object-fit: cover;
 		z-index: -1;
 	}
 
@@ -338,7 +340,8 @@ a{
 		position: absolute;
 		display: block;
 		width: 100%;
-		height: auto;
+		height: 100%;
+		object-fit: cover;
 		z-index: -1;
 	}
 
@@ -604,6 +607,13 @@ li a.activelink{
 
 .back{
 	margin-bottom: 3vh;
+}
+
+.pimg{
+	position: absolute;
+	width: 90vw;
+	transform: translate(-50%);
+	left: 50%;
 }
 
 /*----------------------------------------*/
