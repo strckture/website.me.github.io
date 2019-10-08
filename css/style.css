@@ -610,10 +610,16 @@ li a.activelink{
 }
 
 .pimg{
-	position: absolute;
 	width: 90vw;
-	transform: translate(-50%);
-	left: 50%;
+	margin-bottom: 3vh;
+}
+
+.pcenter{
+	top: 50vh;
+	position: sticky;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	z-index: -1;
 }
 
 /*----------------------------------------*/
@@ -626,6 +632,14 @@ li a.activelink{
 .pjhead{
 	font-size: 36px;
 	font-weight: medium;
+	margin-top: 15vh;
+	margin-left: 5vw;
+	margin-bottom: 10vh;
+}
+
+.ptext{
+	font-size: 19px;
+	margin: 5vh 5vw;
 }
 
 /*----------------------------------------*/
@@ -643,3 +657,11 @@ li a.activelink{
 .TIlogo{
 	width: 90vw;
 }
+
+/*----------------------------------------*/
+/*---------------project3-----------------*/
+
+.bg3{
+	background-color: #FFFFFF;
+}
+
