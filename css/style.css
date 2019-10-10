@@ -355,10 +355,10 @@ a{
 		transform: translate(-50%,-50%);
 	}
 
-	.textbg{
+	/*.textbg{
 		position: absolute;
 		background-color: rgba(0, 0, 0, 0.8);
-	}
+	}*/
 
 	.prjcttext{
 		position: absolute;
@@ -659,6 +659,11 @@ li a.activelink{
 
 .bg1{
 	background-color: #000000;
+}
+
+.pvid{
+	width: 90%;
+	height: auto;
 }
 
 /*----------------------------------------*/
