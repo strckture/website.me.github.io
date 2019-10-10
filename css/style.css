@@ -670,10 +670,12 @@ li a.activelink{
 
 .pvid {
 	position: relative;
-	padding-bottom: 56.25%;
+	/*padding-bottom: 56.25%;*/
+	padding-bottom: 52%;
 	padding-top: 0px;
 	height: 0;
 	overflow: hidden;
+	margin-bottom: 5vh;
 }
 
 
