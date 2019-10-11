@@ -19,7 +19,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight, WEBGL);
   canvas.position(0,0);
   canvas.style('z-index','-1');
-  // init random balls
+ 
   for (var i = 0; i < numSpheres; i++) {
     x = random(-boxSz, boxSz);
     y = random(-boxSz, boxSz);
@@ -31,7 +31,6 @@ function setup() {
 
 function draw() {
   background(25,37,90);
-
   translate(0,0,-100);
 
   if(windowWidth < 1200){
@@ -46,32 +45,12 @@ function draw() {
 
   translate(width/2,height/2);
 
-    /*
-  push();
-  translate(200,0,0);
-  rotateY(frameCount*0.01);
-  fill(0,0,255);
-  sphere(50);
-  pop();
-  */
-
-for (var i = 0; i < balls.length; i++) {
-  balls[i].display();
-}
-/*if (frameCount % 25 == 0) {
-  balls[int(random(balls.length))].move();
-}
-if(frameCount % 100 == 0) {
   for (var i = 0; i < balls.length; i++) {
-    balls[i].move();
+    balls[i].display();
   }
-}*/
 
-//noStroke();
-//fill(255,0,0);
-stroke(255);
- 
-} // draw
+  stroke(255);
+}
 
 function Ball(_x, _y, _z) {
   this.x = _x;
@@ -87,10 +66,6 @@ function Ball(_x, _y, _z) {
       translate(this.x, this.y, this.z);
       sphere(2, 16);
     pop();
-    
-      /*this.x = lerp(this.x, this.newX, 0.01);
-      this.y = lerp(this.y, this.newY, 0.01);
-      this.z = lerp(this.z, this.newZ, 0.01);*/
   }
   
   this.move = function() {
