@@ -689,6 +689,11 @@ li a.activelink{
 	margin-bottom: 3vh;
 }
 
+.p2browserimg{
+	width: 71vw;
+	margin-bottom: 3vh;
+}
+
 .p2center{
 	display: flex;
   	align-items: center;
