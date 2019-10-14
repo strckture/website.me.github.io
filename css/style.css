@@ -26,6 +26,14 @@ a{
 	color: gray;
 }
 
+/*.bgmain{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #19255a;
+	z-index: -3;
+}*/
+
 /*--------------scroll/content--------------*/
 
 .section{
@@ -33,7 +41,7 @@ a{
 }
 
 .section:nth-child(1){
-	z-index: -1;
+	z-index: 0;
 }
 
 .section:nth-child(2){
