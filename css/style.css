@@ -362,17 +362,13 @@ a{
 		transform: translate(-50%,-50%);
 	}
 
-	/*.textbg{
-		position: absolute;
-		background-color: rgba(0, 0, 0, 0.8);
-	}*/
-
 	.prjcttext{
 		position: absolute;
 		top: 29vh;
 		left: 3vw;
 		right: 55vw;
 		padding: 12px;
+
 	}
 
 	.pcvid{
@@ -557,6 +553,10 @@ a{
 #paint{
 	cursor: url("../img/cursor.cur") 0 15, auto;
 	position: absolute;
+}
+
+.textbg{
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 /*----------------------------------------*/
