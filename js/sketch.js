@@ -4,11 +4,8 @@ var canvas
 
 var boxSz = 700;
 var numSpheres =100;
-
 var balls = [];
-
 var t = 0.0;
-
 var s = 0;
 
 function windowResized(){
@@ -37,18 +34,15 @@ function draw() {
     s +=0.3;
     var xpos= cos(radians(s))*180;
     var zpos= sin(radians(s))*180;
-
     camera(xpos, 0, zpos, width/2, height/2, 0, 0, 1, 0);
   } else {
     camera(mouseX, mouseY, (height/2.0) / tan(PI*30.0 / 180.0), width/2.0, height/2.0, 0, 0, 1, 0);
   }
 
   translate(width/2,height/2);
-
   for (var i = 0; i < balls.length; i++) {
     balls[i].display();
   }
-
   stroke(255);
 }
 
@@ -61,7 +55,6 @@ function Ball(_x, _y, _z) {
   this.newZ = 0;
   
   this.display = function() {
- 
     push();
       translate(this.x, this.y, this.z);
       sphere(2, 16);
