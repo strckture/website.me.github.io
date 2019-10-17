@@ -469,11 +469,11 @@ a{
 
 	.xraystate{
 		opacity: 0.2;
+		transition: opacity 0.5s;
 	}
 
 	.xray:hover .xraystate{
 		opacity: 1;
-		transition: 0.5s;
 	}
 
 	.foto{
