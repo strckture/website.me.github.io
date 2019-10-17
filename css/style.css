@@ -26,14 +26,6 @@ a{
 	color: gray;
 }
 
-/*.bgmain{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: #19255a;
-	z-index: -3;
-}*/
-
 /*--------------scroll/content--------------*/
 
 .section{
@@ -476,12 +468,12 @@ a{
 	}
 
 	.xraystate{
-		opacity: 0;
-		transition: 0.5s;
+		opacity: 0.2;
 	}
 
 	.xray:hover .xraystate{
 		opacity: 1;
+		transition: 0.5s;
 	}
 
 	.foto{
