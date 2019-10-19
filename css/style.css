@@ -141,7 +141,7 @@ a{
 	}
 
 	.phonefoto{
-		top: 20.2vw;
+		top: 0;
 		position: absolute;
 		width: 100%;
 		height: auto;
@@ -279,18 +279,17 @@ a{
 
 	.foto{
 		position: absolute;
-		width: 39vw;
+		width: 38vw;
 		height: auto;
-		
 		top: 25vh;
-		margin-left: 10vw;
+		margin-left: 9vw;
 		padding-left: 12px;
 	}
 
 	.about{
 		position: absolute;
 		top: 25vh;
-		left: 53vw;
+		left: 51vw;
 		right: 10vw;
 		color: #FFFFFF;
 		font-size: 20px;
@@ -410,7 +409,7 @@ a{
 	.about{
 		position: absolute;
 		top: 20vh;
-		left: 50vw;
+		left: 49vw;
 		color: #FFFFFF;
 		font-size: 20px;
 	}
