@@ -141,8 +141,10 @@ a{
 	}
 
 	.phonefoto{
-		top: 0;
+		top: 6vh;
+		padding-top: 40px;
 		position: absolute;
+		height: 40vh;
 		width: 100%;
 		height: auto;
 	}
