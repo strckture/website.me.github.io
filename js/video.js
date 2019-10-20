@@ -19,6 +19,6 @@ window.addEventListener("hashchange", () => {
 function video_start() {
 	setTimeout(function(){
 		document.getElementById("pcvideo").play();
-	},2000);
+	},1500);
 	
 }
