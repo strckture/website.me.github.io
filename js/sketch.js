@@ -24,6 +24,7 @@ function setup() {
 
     balls[i] = new Ball(x,y,z)
   }
+  background(25,37,90);
 }
 
 function draw() {
