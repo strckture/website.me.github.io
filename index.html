@@ -33,10 +33,12 @@
 </head>
 <body>
 	<!-----------------loading------------------>
-		<div class="schwarz"></div>
-		<div id="loader-wrapper">
-			<img alt="Logo" src="img/logome.svg" id="logoload">
-		</div>
+		<div id="schwarz"></div>
+		<!-- <div id="loader-wrapper">
+			
+		</div> -->
+
+		<img alt="Logo" src="img/logome.svg" id="logoload">
 	<!-----------------loading------------------>
 	<!-----------------nav---------------------->
 		<div>
@@ -136,11 +138,15 @@
 
 	<!-----------------loading------------------>
 			
-			<!--script type="text/javascript">
-				$(window).on("load",function(){
-					$(".loader-wrapper").fadeOut("slow")
-				});
-			</script-->
+			<script type="text/javascript">
+				var readyStateCheckInterval = setInterval(function() {
+    				if (document.readyState === "complete") {
+       				 clearInterval(readyStateCheckInterval);
+        				document.getElementById("schwarz").style.display="none";
+        				document.getElementById("logoload").style.display="none";
+   					}
+				}, 10); 
+			</script>
 	<!-----------------/loading------------------>	
 		</div>
 	<!-----------------/content----------------->
