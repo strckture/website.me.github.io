@@ -33,11 +33,10 @@
 </head>
 <body>
 	<!-----------------loading------------------>
-		<div id="schwarz"></div>
+		<div id="blackbg"></div>
 		<div id="loader-wrapper">
 			<img alt="Logo" src="img/logome.svg" id="logoload">	
 		</div>
-
 	<!-----------------loading------------------>
 	<!-----------------nav---------------------->
 		<div>
@@ -134,17 +133,15 @@
 				<img src="img/onelinephone.svg" alt="phonesketch" class="oneline">
 				<img src="img/raster.svg" alt="raster" class="raster">
 			</div>
-
 	<!-----------------loading------------------>
-			
 			<script type="text/javascript">
 				var readyStateCheckInterval = setInterval(function() {
     				if (document.readyState === "complete") {
        				 clearInterval(readyStateCheckInterval);
-        				document.getElementById("schwarz").style.opacity=0;
+        				document.getElementById("blackbg").style.opacity=0;
         				document.getElementById("logoload").style.opacity=0;
         				document.getElementById("loader-wrapper").style.opacity=0;
-        				document.getElementById("schwarz").style.display="none";
+        				document.getElementById("blackbg").style.display="none";
         				document.getElementById("logoload").style.display="none";
         				document.getElementById("loader-wrapper").style.display="none";
    					}
