@@ -34,11 +34,10 @@
 <body>
 	<!-----------------loading------------------>
 		<div id="schwarz"></div>
-		<!-- <div id="loader-wrapper">
-			
-		</div> -->
+		<div id="loader-wrapper">
+			<img alt="Logo" src="img/logome.svg" id="logoload">	
+		</div>
 
-		<img alt="Logo" src="img/logome.svg" id="logoload">
 	<!-----------------loading------------------>
 	<!-----------------nav---------------------->
 		<div>
@@ -144,6 +143,7 @@
        				 clearInterval(readyStateCheckInterval);
         				document.getElementById("schwarz").style.display="none";
         				document.getElementById("logoload").style.display="none";
+        				document.getElementById("loader-wrapper").style.display="none";
    					}
 				}, 10); 
 			</script>
