@@ -718,7 +718,7 @@ li a.activelink{
 /*----------------------------------------*/
 /*---------------loadingscreen------------*/
 
-.loader-wrapper{
+#loader-wrapper{
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -729,7 +729,7 @@ li a.activelink{
 }
 
 
-.logoload{
+#logoload{
 	color: white;
 	position: absolute;
 	left: 50%;
