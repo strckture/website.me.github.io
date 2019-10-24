@@ -18,7 +18,7 @@ window.addEventListener("hashchange", () => {
 
 function video_start() {
 	setTimeout(function(){
-		document.getElementById("pcvideo").play();
+		document.getElementByClass("pcvid").play();
 	},2000);
 	
 }
