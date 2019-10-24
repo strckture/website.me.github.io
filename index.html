@@ -141,9 +141,9 @@
 				var readyStateCheckInterval = setInterval(function() {
     				if (document.readyState === "complete") {
        				 clearInterval(readyStateCheckInterval);
-        				document.getElementById("schwarz").style.display="none";
-        				document.getElementById("logoload").style.display="none";
-        				document.getElementById("loader-wrapper").style.display="none";
+        				document.getElementById("schwarz").style.opacity=0;
+        				document.getElementById("logoload").style.opacity=0;
+        				document.getElementById("loader-wrapper").style.opacity=0;
    					}
 				}, 10); 
 			</script>

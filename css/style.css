@@ -724,6 +724,7 @@ li a.activelink{
 	height: 100%;
 	background-color: black;
 	z-index: 60;
+	transition: opacity 0.5s ease-in-out;
 }
 
 #loader-wrapper{
@@ -733,6 +734,7 @@ li a.activelink{
 	top: 0;
 	left: 0;
 	z-index: 60;
+	transition: opacity 0.5s ease-in-out;
 }
 
 
@@ -747,6 +749,7 @@ li a.activelink{
 	width: 50px;
 	overflow:hidden;
     animation: rotateplane 2.0s infinite;
+    transition: opacity 0.5s ease-in-out;
 }
 
 @keyframes rotateplane {
