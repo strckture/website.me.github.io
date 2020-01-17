@@ -53,11 +53,16 @@ a{
 }
 
 .section:nth-child(5){
-	background-color: #1C1F2A;
+	background-color: white;
 	z-index: -1;
 }
 
 .section:nth-child(6){
+	background-color: #1C1F2A;
+	z-index: -1;
+}
+
+.section:nth-child(7){
 	background-color: #121623;
 	z-index: -1;
 }
@@ -429,6 +434,13 @@ a{
 		z-index: -1;
 	}
 
+	.flotelogo{
+		position: absolute;
+		top: 0vh;
+		left: 45vw;
+		width: 40vw;
+	}
+
 	.foto{
 		position: absolute;
 		width: 30vw;
@@ -519,6 +531,13 @@ a{
 		height: auto;
 		left: 11vw;
 		top: 25vh;
+	}
+
+	.flotelogo{
+		position: absolute;
+		top: -5vh;
+		left: 45vw;
+		width: 35vw;
 	}
 
 	.about{
@@ -705,6 +724,13 @@ li a.activelink{
 .pimg{
 	position: sticky;
 	width: 90vw;
+	margin-bottom: 3vh;
+}
+
+
+.pimgscreen{
+	position: sticky;
+	width: 80vw;
 	margin-bottom: 3vh;
 }
 

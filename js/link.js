@@ -5,7 +5,7 @@ function myTimer() {
 	var aktuellePosition = window.location.href;
 	var aktiverLink = document.getElementsByClassName("activelink")
 	if (aktiverLink[0] == null){
-		if (aktuellePosition.includes("#work") || aktuellePosition.includes("#project2") || aktuellePosition.includes("#project3")){
+		if (aktuellePosition.includes("#work") || aktuellePosition.includes("#project2") || aktuellePosition.includes("#project3") || aktuellePosition.includes("#project4")){
 			navlinks[0].classList.add("activelink");
 		}
 
@@ -21,7 +21,7 @@ function myTimer() {
 	else {
 		aktiverLink[0].classList.remove("activelink");
 
-		if (aktuellePosition.includes("#work") || aktuellePosition.includes("#project2") || aktuellePosition.includes("#project3")){
+		if (aktuellePosition.includes("#work") || aktuellePosition.includes("#project2") || aktuellePosition.includes("#project3") || aktuellePosition.includes("#project4")){
 			navlinks[0].classList.add("activelink");
 		}
 
