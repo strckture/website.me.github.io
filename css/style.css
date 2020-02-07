@@ -64,7 +64,7 @@ a{
 }
 
 /*.section:nth-child(4){
-	background-image: url("../img/circlefontv4.png");
+	background-image: url("../img/circlefontv4.jpg");
 	background-size: cover;
 	z-index: -1;
 }
@@ -76,7 +76,7 @@ a{
 }
 
 /*.section:nth-child(6){
-	background-image: url("../img/bookmockup.png");
+	background-image: url("../img/bookmockup.jpg");
 	background-size: cover;
 	z-index: -1;
 }
@@ -88,7 +88,7 @@ a{
 }
 
 .section:nth-child(8){
-	background-image: url("../img/mcgregor.png");
+	background-image: url("../img/mcgregor.jpg");
 	background-size: cover;
 	background-color: grey;
 	z-index: -1;
@@ -177,21 +177,21 @@ a{
 	}
 
 	.section:nth-child(4){
-		background-image: url("../img/circlephone.png");
+		background-image: url("../img/circlephone.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
 	}
 
 	.section:nth-child(6){
-		background-image: url("../img/bookmockupphone.png");
+		background-image: url("../img/bookmockupphone.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
 	}
 
 	.section:nth-child(7){
-		background-image: url("../img/soundvisualsphone.png");
+		background-image: url("../img/soundvisualsphone.jpg");
 		background-size: cover;
 		background-color: black;
 		z-index: -1;
@@ -202,7 +202,7 @@ a{
 	}
 
 	.section:nth-child(8){
-		background-image: url("../img/mcgregorphone.png");
+		background-image: url("../img/mcgregorphone.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
@@ -353,14 +353,14 @@ a{
 	}
 
 	.section:nth-child(4){
-		background-image: url("../img/circletablet.png");
+		background-image: url("../img/circletablet.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
 	}
 
 	.section:nth-child(6){
-		background-image: url("../img/bookmockupphone.png");
+		background-image: url("../img/bookmockupphone.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
@@ -513,7 +513,7 @@ a{
 	}
 
 	.section:nth-child(4){
-		background-image: url("../img/circlefontv4.png");
+		background-image: url("../img/circlefontv4.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
@@ -527,7 +527,7 @@ a{
 	}
 
 	.section:nth-child(6){
-		background-image: url("../img/bookmockup.png");
+		background-image: url("../img/bookmockup.jpg");
 		background-size: cover;
 		background-color: grey;
 		z-index: -1;
