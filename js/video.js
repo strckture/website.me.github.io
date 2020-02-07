@@ -5,6 +5,10 @@ window.addEventListener("load", () => {
 		video_start();
 	}
 
+	if (aktuellePosition.includes("#project6")){
+		video2_start();
+	}
+
 });
 
 window.addEventListener("hashchange", () => {
@@ -14,6 +18,11 @@ window.addEventListener("hashchange", () => {
 	if (aktuellePosition.includes("#work")){
 		video_start();
 	} 
+
+	if (aktuellePosition.includes("#project6")){
+		video2_start();
+	}
+
 });
 
 function video_start() {
@@ -22,3 +31,11 @@ function video_start() {
 	},1500);
 	
 }
+
+function video2_start() {
+	setTimeout(function(){
+		document.getElementById("pcvideo2").play();
+	},1500);
+	
+}
+
