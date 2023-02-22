@@ -127,7 +127,8 @@ a{
 		float: left;
 		left: 2vw;
 		bottom: 0;
-		transform-origin: bottom left;transform:rotate(-90deg);
+		transform-origin: bottom left;
+		transform:rotate(-90deg);
 		font-size: 16px;
 		font-weight: normal;
 		color: #FFFFFF;
@@ -144,7 +145,7 @@ a{
 		padding-right: 18px;
 		font-size: 18px;
 	}
-	
+
 	.phonevid{
 		position: absolute;
 		height: 100%;
@@ -156,7 +157,7 @@ a{
 	.pcvid{
 		display: none;
 	}
- 
+
 	.twitter{
 		display: none;
 	}
@@ -428,7 +429,7 @@ a{
 	}
 
 	.nohover{
-		display: block; 
+		display: block;
 	}
 
 	/*----------------------------------------*/
@@ -628,7 +629,7 @@ a{
 		top: 25vh;
 		left: 45vw;
 		right: 20vw;
-		color: #FFFFFF; 
+		color: #FFFFFF;
 		font-size: 20px;
 	}
 
@@ -783,7 +784,7 @@ nav ul{
 	nav ul li a{
 		line-height: 40px;
 		color: #fff;
-		padding: 12px 30px;					
+		padding: 12px 30px;
 		text-decoration: none;
 		transition: .3s;
 	}
@@ -795,7 +796,7 @@ nav ul{
 	nav ul li a{
 		line-height: 40px;
 		color: #fff;
-		padding: 12px 20px;				
+		padding: 12px 20px;
 		text-decoration: none;
 		transition: .3s;
 	}
@@ -954,5 +955,5 @@ li a.activelink{
 @keyframes rotateplane {
 	100%{
 		transform: perspective(120px) rotateY(360deg);
-	} 
+	}
 }
